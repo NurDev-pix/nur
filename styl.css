@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(206, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('pinterest__1727440927394_50739baf-73f5-4f4f-873a-5d5cd283a819\ gif\ gif\ -\ 1.gif') no-repeat center center fixed; /* Замените на URL вашего GIF */
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.form-container {
+    position: relative;
+}
+
+.form {
+    display: none;
+    padding: 20px;
+}
+
+.form.active {
+    display: block;
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.toggle button {
+    width: 48%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.toggle button:hover {
+    background-color: #555;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}

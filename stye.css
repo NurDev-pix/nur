@@ -1,0 +1,59 @@
+/* General Styles */
+
+/* Contact Section */
+.contact-container {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-item {
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+.social-item:hover {
+    transform: scale(1.1);
+}
+
+.social-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.social-item span {
+    display: block;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .social-item {
+        width: 100%;
+    }
+}

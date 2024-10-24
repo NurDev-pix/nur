@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('pinterest__1727440927394_50739baf-73f5-4f4f-873a-5d5cd283a819\ gif\ gif\ -\ 1.gif') no-repeat center center fixed; /* Замените на URL вашего GIF */
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo ul {
+    list-style: none;
+    display: flex;
+}
+
+.logo ul li {
+    margin-left: 20px;
+}
+
+.logo ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+.logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* General Styles */
+
+/* Contact Section */
+.contact-container {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-item {
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 1500px;
+    transition: transform 0.3s;
+}
+
+.social-item:hover {
+    transform: scale(1.1);
+}
+
+.social-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.social-item span {
+    display: block;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .social-item {
+        width: 100%;
+    }
+}
+
+main {
+    margin: 20px;
+}
+
+.about {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.about:hover {
+    transform: scale(1.1);
+}
+
+main {
+    margin: 20px;
+}
+
+.services {
+    background-color: unset;
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    backdrop-filter: blur(1px);
+    
+}
+
+.blurred-box {
+    background-color: unset; /* Полупрозрачный белый цвет */
+    backdrop-filter: blur(10px); /* Размытие фона */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 10px;
+}
+
+.service-item {
+    background-color: unset;
+    backdrop-filter: blur(1px);
+    padding: 15px;
+    width: 45%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    
+}
+
+.service-item h2 {
+    color: #ffffff;
+}
+
+.service-item:hover {
+    transform: scale(1.1);
+}
